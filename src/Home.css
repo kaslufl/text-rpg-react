@@ -28,3 +28,7 @@ section {
 footer {
   grid-area: footer;
 }
+
+body {
+  background-color: gray;
+}
