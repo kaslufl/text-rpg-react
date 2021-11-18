@@ -1,0 +1,28 @@
+form#character-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin: 1em;
+  background-color: black;
+  border-radius: 10px;
+  border: 5px solid transparent;
+  padding: 0.5rem;
+  color: white;
+}
+section.character-form {
+  display: flex;
+  align-items: center;
+}
+
+input.character-form {
+  width: 80%;
+}
+
+button.character-form {
+  margin-top: 1rem;
+  border: 3px solid white;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}

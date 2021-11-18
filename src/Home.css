@@ -1,0 +1,30 @@
+article {
+  display: grid;
+  grid-template-areas: "header" "section" "footer";
+  background-color: gray;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  grid-area: header;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h2.title {
+  color: white;
+  margin: 1rem;
+}
+
+section {
+  grid-area: section;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  grid-area: footer;
+}

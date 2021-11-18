@@ -1,0 +1,13 @@
+section.display {
+  align-items: center;
+  background-color: gray;
+  margin-top: 3rem;
+}
+
+div.display {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  width: 70%;
+}

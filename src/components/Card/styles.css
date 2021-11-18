@@ -1,0 +1,17 @@
+div.card-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.card {
+  appearance: none;
+  padding: 1em 2em;
+  margin: 1em;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background: #000;
+}
